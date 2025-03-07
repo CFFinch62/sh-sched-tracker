@@ -86,8 +86,8 @@ v1.05
   - Fixed QColor import issue
   - All functionality tested and working
 
-Future Enhancements
+Prospective Future Enhancements
 
-- Message Editor
+- Schedule Message Editor
 
-Improvements:Consistent dark theme stylingHelp menu with User Guide and AboutEmail contact in About dialogMarkdown support for User Guide
+Improvements: Consistent dark theme styling, Help menu with User Guide,  about Email contact in About dialog, markdown support for User Guide
