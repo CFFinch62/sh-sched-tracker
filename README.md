@@ -52,7 +52,7 @@ Tkinter - I wrote this version for the same reason as the Qt5 version. I was thi
    - clock.png
    - fragillidae.ico
    - *_time_test.txt
-   - user_guide_tk.md (rename to user_guide.md when running program)
+   - user_guide_tk.md
 
 Web (HTML/JS/CSS) - I settled on this verison becasue I thought it would be the quickest cross platform solution. My friend really wnated a desktop and mobile version of the app. I have never done a true iOS or Android project so I opted for a front end only web app for a quick and easy solution. 
 
