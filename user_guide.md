@@ -1,4 +1,4 @@
-SH SCHEDULE TRACKER USER GUIDE (Qt versions)
+SH SCHEDULE TRACKER USER GUIDE (QT VERSION)
 
 # OVERVIEW #
 Schedule Tracker is a desktop application that helps you track multiple schedules in real-time.
