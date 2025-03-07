@@ -1,0 +1,93 @@
+SH Schedule Tracker App Revision History
+
+v1.00
+- Initial Code Creation
+  - Created json data fiel from school web url for schedules
+  - Created basic single GUI window app template
+  - Teste pyQT and Tkinter for best GUI solution for app
+
+v1.01
+- Continued coding basic app
+  - Created all the main window elements for display
+    - Labels
+    - Message Boxes
+    - Menu
+  - Created basic time checking loop (app update every minute) 
+  - Created basic message display functionality
+
+v1.02
+- Features Added
+  - Test Mode
+    - Manually enter a tiem and appy it to see message reactions
+  - Systen Tray Icon
+    - tray icon apears when app launched
+    - app can be toggled in view/ hidden with tray icon
+- Adjusted display messsage to customer specs
+  - Pre-Schedule (Midnight to School start) - 'Before School"
+  - Schedule Start (Warning Bell) - 'Period 1 starts ##:##'
+  - Between Periods - 'Period 1 -> Period 2'
+  - Post Schedule - "After School'
+  - Announcements have been rolled into Period 1
+  
+v1.03 
+- Features Added
+  - Schedule Editor
+  - Color Settings editor
+  - Test Mode Upgrades
+    - Time Files: can use text files as inport to time test mode for automated testing
+
+v1.04
+- Features Added
+  - Window Size Selection ( small, medium, large)
+  - Tray Icon Selection (choose from 2 icons)
+- Implementaion Changes
+  - Removed window resizing in favor of fixed size selection
+  - Created Help menu to display software info
+
+v1.05
+- Menu Organization:
+  - Tools menu items are now alphabetically ordered
+  - About menu content moved to Help menu
+  - Added Help menu with User Guide and About options
+- Grouped menu items with separators:
+   - Logical grouping: Display Settings, Application Settings, Security Settings, and Exit
+
+- Password Management:
+   - Default password changed to 'shs'
+   - Added password reset with 'chucksoft' as master reset password
+   - Limited reset attempts to 3 per session
+   - Added developer contact information for support
+
+- About Dialog Improvements:
+  - Window size: 355x245 pixels
+  - Added clickable mailto link: info@fragillidaesoftware.com
+  - Updated version to v1.05
+  - Removed phone number
+  - Consistent styling with website link
+
+- Window Size Updates
+  - Small window size increased to 355 pixels
+  - Window Sizes:
+     - Small: 355x230
+     - Medium: 445x355
+     - Large: 675x555
+     - Test Mode: 385x345UI 
+  - AboutDialog matches new dimensions
+  - Maintained consistent styling
+
+- UI Improvements:
+  - Consistent dark theme styling
+
+- User Guide Implementation
+  - Added markdown content support
+  - Accessible through Help menu
+
+- Code Quality
+  - Fixed QColor import issue
+  - All functionality tested and working
+
+Future Enhancements
+
+- Message Editor
+
+Improvements:Consistent dark theme stylingHelp menu with User Guide and AboutEmail contact in About dialogMarkdown support for User Guide
