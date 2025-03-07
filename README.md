@@ -24,12 +24,48 @@ VERSION INFO
 
 PyQt6 - This verison is the first complete desktop app verison I coded. It works very well cross platform when compiled using pyinstaller. A Windows installer was created with InnoSetup 6 which worked fine on all my dev machines but not on my friends school PC so I created the other verisons to see what would work for him.
 
+ - Version File List:
+   | - sh_sched_tracker_qt6.py
+   | - schedules.json
+   | - timer.png
+   | - clock.png
+   | - fragillidae.ico
+   | - *_time_test.txt
+   | - user_guide_qt.md (rename to user_guide.md when running program)
+     
 PyQt5 - This version is exactly the same as Qt6 version just using Qt5 becasue my friend had a problem installing the Qt6 verison on his particular PC. I did this as an attempt to figure out the problem. All my own Windows dev machines handeled the sofware with no installation and operational problems. This verison was never actually tested or used outside of my dev environment.
+
+ - Version File List:
+   | - sh_sched_tracker_qt5.py
+   | - schedules.json
+   | - timer.png
+   | - clock.png
+   | - fragillidae.ico
+   | - *_time_test.txt
+   | - user_guide_qt.md (rename to user_guide.md when running program)
 
 Tkinter - I wrote this version for the same reason as the Qt5 version. I was thinking that with Tkinter being so closely integrated with Python it would solve potential installation and operaiton problems. 
 
+ - Version File List:
+   | - sh_sched_tracker_tk.py
+   | - schedules.json
+   | - clock.png
+   | - fragillidae.ico
+   | - *_time_test.txt
+   | - user_guide_tk.md (rename to user_guide.md when running program)
+
 Web (HTML/JS/CSS) - I settled on this verison becasue I thought it would be the quickest cross platform solution. My friend really wnated a desktop and mobile version of the app. I have never done a true iOS or Android project so I opted for a front end only web app for a quick and easy solution. 
 
+ - Version File List:
+    - master_time_test.txt
+    - user_guide_web.md
+    - sh_sched_tracker_web.html
+      | - css (folder)
+          | - style.css
+      | - js (folder)
+          | - app.js
+          | - schedules.js
+   
 
 FEATURE DETAILS:
 
