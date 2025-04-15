@@ -44,7 +44,7 @@ PyQt5 - This version is exactly the same as Qt6 version just using Qt5 becasue m
    - *_time_test.txt
    - user_guide_qt.md (rename to user_guide.md when running program)
 
-Tkinter - I wrote this version for the same reason as the Qt5 version. I was thinking that with Tkinter being so closely integrated with Python it would solve potential installation and operaiton problems. 
+Tkinter - I wrote this version for the same reason as the Qt5 version. I was thinking that with Tkinter being so closely integrated with Python it would solve potential installation and operation problems. 
 
  - Version File List:
    - sh_sched_tracker_tk.py
@@ -54,7 +54,7 @@ Tkinter - I wrote this version for the same reason as the Qt5 version. I was thi
    - *_time_test.txt
    - user_guide_tk.md
 
-Web (HTML/JS/CSS) - I settled on this verison becasue I thought it would be the quickest cross platform solution. My friend really wnated a desktop and mobile version of the app. I have never done a true iOS or Android project so I opted for a front end only web app for a quick and easy solution. 
+Web (HTML/JS/CSS) - I settled on this verison because I thought it would be the quickest cross platform solution. My friend really wanted a desktop and mobile version of the app. I have never done a true iOS or Android project so I opted for a front end only web app for a quick and easy solution. 
 
  - Version File List:
     - master_time_test.txt
